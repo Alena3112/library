@@ -1,0 +1,232 @@
+.myProfile.activ {
+  display: grid;
+  position: absolute;
+  width: 80px;
+  height: 115px;
+  margin-top: 50px;
+  padding-top: 10px;
+  background: #ffffff;
+  margin-left: -50px;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+
+  h3 {
+    font-weight: 700;
+    border-bottom: 2px solid #bb945f;
+  }
+}
+.myProfile {
+  display: none;
+}
+.register {
+  display: none;
+}
+.register.activ {
+  display: grid;
+  position: absolute;
+  width: 80px;
+  height: 135px;
+  margin-top: 50px;
+  margin-left: -50px;
+  padding-top: 10px;
+  background: #ffffff;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+
+  h3 {
+    font-weight: 700;
+    border-bottom: 2px solid #bb945f;
+  }
+}
+
+////////////login
+.loginInRegister {
+  display: none;
+}
+.loginInRegister.a {
+  width: 250px;
+  height: auto;
+  background: #ffffff;
+  // align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-top: 250px;
+
+  h3 {
+    text-align: center;
+    font-family: Forum;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    margin-top: 20px;
+  }
+  p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+}
+#login-form {
+  display: grid;
+  margin: 20px 25px 10px 25px;
+  gap: 10px;
+}
+#login-form-submit {
+  border-radius: 2px;
+  border-radius: 1px solid black;
+  width: 75px;
+  height: 30px;
+  background: #ffffff;
+  cursor: pointer;
+  align-self: flex-start;
+}
+.help {
+  display: flex;
+  margin: 0px 0px 20px 25px;
+  align-items: center;
+  p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  a {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+    margin-left: 5px;
+    text-decoration: underline;
+    text-shadow: black;
+  }
+}
+#username-field {
+  border: 1px solid #bb945f;
+}
+#password-field {
+  border: 1px solid #bb945f;
+}
+.close {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -200px;
+  width: 15px;
+  height: 15px;
+  display: block;
+  background-size: cover;
+  background-image: url("/acsess/icon/close_btn.svg");
+}
+.username-field {
+  width: 200px;
+  height: 20px;
+  border: 1px solid #bb945f;
+  outline: none;
+}
+///////register
+///
+///
+///
+// /// .nameRegister{
+//   display: none;
+// }
+.nameRegister {
+  display: none;
+  width: 250px;
+  height: auto;
+  background: #ffffff;
+  // align-self: flex-start;
+  display: grid;
+  // position: absolute;
+  justify-items: center;
+  align-items: center;
+  margin-top: 300px;
+
+  h3 {
+    text-align: center;
+    font-family: Forum;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    margin-top: 20px;
+  }
+  p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+}
+.nameRegisterForm.active {
+  display: grid;
+  margin: 20px 25px 10px 25px;
+  gap: 10px;
+}
+#register-form-submit {
+  border-radius: 2px;
+  border-radius: 1px solid black;
+  width: 75px;
+  height: 30px;
+  background: #ffffff;
+  cursor: pointer;
+  align-self: flex-start;
+}
+.help.a {
+  display: flex;
+  margin: 0px 0px 20px 25px;
+  align-items: center;
+  p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  a {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+    margin-left: 5px;
+    text-decoration: underline;
+    text-shadow: black;
+  }
+}
+#password-field-register {
+  border: 1px solid #bb945f;
+  width: 200px;
+  height: 20px;
+}
+#register-field {
+  border: 1px solid #bb945f;
+  width: 200px;
+  height: 20px;
+}
+.close {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -350px;
+  width: 15px;
+  height: 15px;
+  display: block;
+  background-size: cover;
+  background-image: url("/acsess/icon/close_btn.svg");
+}

@@ -37,6 +37,57 @@
 
                 <div class="icon-burger">
                     <div class="header-icon"></div>
+                    <div class="register">
+                        <h3>Profile</h3>
+                        <p>Login in</p>
+                        <p>Register</p>
+                    </div>
+                    <div class="myProfile">
+                        <h3>Profile</h3>
+                        <p>My profile</p>
+                        <p>Log Out</p>
+                    </div>
+                    <div class="loginInRegister">
+                        <h3>LOGIN</h3>
+                        <div class="close"></div>
+                        <div class="emailAdress">
+                            <form id="login-form">
+                                <p>E-mail or readers card</p>
+                                <input type="text" name="username" id="username-field" class="login-form-field">
+                                <p>Password</p>
+                                <input type="password" name="password" id="password-field" class="login-form-field">
+                                <input type="submit" value="Log in" id="login-form-submit">
+                            </form>
+                            <div class="help">
+                                <p>Don’t have an account?</p>
+                                <p><a href="#">Register</a></p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- <div class="nameRegister">
+                        <h3>REGISTER</h3>
+                        <div class="close"></div>
+                        <div class="emailAdress">
+                            <form class = "nameRegisterForm" id="register-form">
+                                <p>First name</p>
+                                <input type="text" name="username" id="register-name" class="register-form-field" >
+                                <p>Last name</p>
+                                <input type="text" name="username" id="register-lastname" class="register-form-field" >
+                                <p>E-mail</p>
+                                <input type="text" name="username" id="register-field" class="register-form-field" >
+                                <p>Password</p>
+                                <input type="password" name="password" id="password-field-register" class="register-form-field" >
+                                <input type="submit" value="Log in" id="register-form-submit">
+                                
+                              </form>
+                              <div class="help">
+                                <p>Already have an account?</p>
+                                <p><a href="#">Login</a></p>
+                              </div>                   
+                              
+                        </div>
+                    </div> -->
                     <div class="container-burger" onclick="myFunction(this)">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
@@ -73,23 +124,30 @@
                     </div>
                     <div class="about-foto">
                         <div class="foto first-screen">
-                            <img class="vector active" src="acsess/icon/Vectoleftr.svg" alt="left">
-                            <img src="acsess/img/girl.jpg" alt="girl">
-                            <img class="books" src="acsess/img/statue.jpg" alt="statue">
-                            <img class="books" src="acsess/img/books.jpg" alt="books">
-                            <img class="none" src="acsess/img/building.jpg" alt="building">
-                            <img class="none" src="acsess/img/books.jpg" alt="books">
-                            <img class="vector active" src="acsess/icon/Vectorrigth.svg" alt="rigth">
+                            <!-- <img class="vectorLeft active" src="acsess/icon/Vectoleftr.svg" alt="left"> -->
+                            <div class="slider-container">
+                                <div class="slider-content">
+                                    <div class="slider-single">
+                                        <img class="slider-single-image" src="acsess/img/girl.jpg" alt="1" />
+                                    </div>
+                                    <div class="slider-single">
+                                        <img class="slider-single-image" src="acsess/img/building.jpg" alt="2" />
+                                    </div>
+                                    <div class="slider-single">
+                                        <img class="slider-single-image" src="acsess/img/books.jpg" alt="3" />
+                                    </div>
+                                    <div class="slider-single">
+                                        <img class="slider-single-image" src="acsess/img/ladder.jpg" alt="4" />
+                                    </div>
+                                    <div class="slider-single">
+                                        <img class="slider-single-image" src="acsess/img/statue.jpg" alt="5" />
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- <img class="vectorNext active" src="acsess/icon/Vectorrigth.svg" alt="rigth"> -->
 
                         </div>
-
-                    </div>
-                    <div class="about-dots">
-                        <div class="dot active"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot none"></div>
-                        <div class="dot none"></div>
                     </div>
 
                 </div>
@@ -104,28 +162,28 @@
                         <p class="pick">Pick favorites of season</p>
                     </div>
                     <form class="radio-button">
-                        <div class="form_radio">
+                        <div class="form_radio winter">
                             <input class="radio-box" id="radio-1" type="radio" name="radio" value="1" checked />
                             <label for="radio-1">Winter</label>
                         </div>
 
-                        <div class="form_radio">
+                        <div class="form_radio spring">
                             <input class="radio-box" id="radio-2" type="radio" name="radio" value="2" />
                             <label for="radio-2">Spring</label>
                         </div>
 
-                        <div class="form_radio">
+                        <div class="form_radio summer">
                             <input class="radio-box" id="radio-3" type="radio" name="radio" value="3">
                             <label for="radio-3">Summer</label>
                         </div>
 
-                        <div class="form_radio">
+                        <div class="form_radio autumn">
                             <input class="radio-box" id="radio-4" type="radio" name="radio" value="4">
                             <label for="radio-4">Autumn</label>
                         </div>
                     </form>
                     <div class="book-item">
-                        <div class="book-list">
+                        <div id="summerBook" class="book-list">
                             <div class="book-title">
                                 <div class="book-logo">
                                     <h3> Staff Picks</h3>
@@ -147,7 +205,7 @@
                                 <img src="acsess/img/book.jpg" alt="book">
                             </div>
                         </div>
-                        <div class="book-list">
+                        <div class="book-list fade_in">
                             <div class="book-title">
                                 <div class="book-logo">
                                     <h3> Staff Picks</h3>
@@ -327,7 +385,7 @@
                     <div class="coffee-container">
                         <div class="coffee-list">
                             <div class="coffee-price coffeeTea">
-                                <h5 class="coffe-textH2">Coffee & Tea </h5>
+                                <h5>Coffee & Tea </h5>
                                 <div class="price">
                                     <p>Cold Brew Coffee</p>
                                     <p class="line">$3</p>
@@ -354,7 +412,7 @@
                                 </div>
                             </div>
                             <div class="coffee-price dessert">
-                                <h5 class="cakes dessertsText">Desserts & Cakes </h5>
+                                <h5 class="cakes">Desserts & Cakes </h5>
                                 <div class="price">
                                     <p class="cakes">Forest Gateau</p>
                                     <p class="line">$16</p>

@@ -6,19 +6,10 @@
   line-height: 40px;
   letter-spacing: 2px;
   text-align: center;
-  @media (max-width: 767px) {
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 1px;
-    width: 280px;
-    margin: 0 auto;
-  }
+  @media (max-width: 767px) {         //add 
+   
+  margin:0 auto;
 }
-.coffe-textH2 {
-  @media (max-width: 767px) {
-    text-align: center;
-    margin: 0 auto;
-  }
 }
 .coffee-list {
   display: flex;
@@ -31,6 +22,7 @@
     flex-direction: column;
     gap: 10px;
   }
+
 }
 .coffee-price {
   display: flex;
@@ -57,10 +49,11 @@
   position: relative;
   width: auto;
   gap: 60px;
-  @media (max-width: 767px) {
-    gap: 30px;
-    width: 280px;
-  }
+  @media (max-width: 767px){
+     
+  gap:30px;
+  width: 280px;
+   }
 
   p::before {
     display: block;
@@ -70,17 +63,19 @@
     border-bottom: 1px solid #bb945f;
     top: 50%;
     left: 240px;
-    @media (max-width: 767px) {
+    @media (max-width: 767px){
+     
       top: 50%;
       left: 120px;
       width: 50px;
-    }
+     }
   }
-  p {
-    @media (max-width: 767px) {
+  p{
+    @media (max-width: 767px){
+     
       font-size: 10px;
       letter-spacing: normal;
-    }
+     }
   }
 }
 .line {
@@ -91,44 +86,51 @@
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 2px;
-  @media (max-width: 767px) {
+  @media (max-width: 767px){
+     
     margin-left: 20px;
-  }
+   }
 }
 .cakes {
   text-align: right;
-}
-.dessertsText {
-  @media (max-width: 767px) {
-    text-align: center;
-    margin: 0 auto;
+  @media (max-width: 767px){
+    
+      text-align: center;
+    
+ 
   }
 }
 .coffee-price.coffeeTea {
   @media (max-width: 1439px) {
     margin-left: 20px;
   }
-  @media (max-width: 767px) {
-    margin: 0 auto;
-    font-size: 10px;
+  @media (max-width: 767px){
+    h5{
+      text-align: center;
+    }
+   margin: 0 auto;
+   font-size: 10px;
   }
 }
 
-.coffee-price {
+.coffee-price{
   @media (max-width: 1439px) {
     margin-left: 220px;
   }
-  @media (max-width: 767px) {
+  @media (max-width: 767px){
     margin: 0 auto;
-  }
+   }
+
 }
-.coffe-style {
-  @media (max-width: 1023px) {
+.coffe-style{
+  @media(max-width:1023px) {
+  
+  
     width: 728px;
-  }
-  /*320-767*/
-  @media (max-width: 767px) {
-    width: 280px;
-    font-size: 10px;
-  }
+}
+/*320-767*/
+@media(max-width:767px){
+width: 280px;
+font-size: 10px;
+}
 }

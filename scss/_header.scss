@@ -48,7 +48,7 @@
 }
 @media (max-width: 767px) {
   margin-left: 0;
-  width: 290px;
+  width: 302px;
 }
 }
 
@@ -114,9 +114,11 @@
 
 }
 .header-icon {
+  display: block;
   background-image: url("../acsess/icon/icon_profile.svg");
   width: 28px;
   height: 28px;
+  z-index: 90;
   @media (max-width: 1439px) {
     margin-right: 20px;
     margin-top: 5px;
