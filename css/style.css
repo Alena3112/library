@@ -715,7 +715,7 @@ a {
   margin-right: 0px;
 }
 .slider-container .bullet-container .bullet.active {
-  background-color: #BB945F;
+  background-color: #bb945f;
 }
 .slider-container .slider-content {
   position: relative;
@@ -776,7 +776,7 @@ a {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   padding: 20px 15px;
-  background-image: url("/acsess/icon/Vectoleftr.svg");
+  background-image: url("../acsess/icon/Vectoleftr.svg");
   background-size: 100%;
   margin-right: 20px;
 }
@@ -789,7 +789,7 @@ a {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   padding: 20px 15px;
-  background-image: url("/acsess/icon/Vectorrigth.svg");
+  background-image: url("../acsess/icon/Vectorrigth.svg");
   background-size: 100%;
   margin-left: 20px;
 }
