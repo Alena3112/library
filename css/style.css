@@ -74,7 +74,7 @@ html {
 @media (max-width: 767px) {
   .header-menu.click {
     margin-left: 0;
-    width: 332px;
+    width: 290px;
   }
 }
 
@@ -481,14 +481,12 @@ a {
        object-fit: cover;
   }
 }
-.foto .vectorLeft,
-.foto .vectorNext {
+.foto .vector {
   display: none;
   /*320-767*/
 }
 @media (max-width: 1439px) {
-  .foto .vectorLeft,
-  .foto .vectorNext {
+  .foto .vector {
     display: block;
     width: 25px;
     height: 25px;
@@ -499,7 +497,6 @@ a {
     margin-top: 264px;
     -o-object-fit: cover;
        object-fit: cover;
-    cursor: pointer;
   }
 }
 .none {
@@ -583,37 +580,36 @@ a {
   cursor: pointer;
 }
 
-.fotoBooks img {
-  display: none;
-}
-
-.fotoBooks img:first-child {
-  display: block;
-}
-
-.vectorLeft,
-.vectorNext {
-  display: none;
+.books {
+  /*320-767*/
 }
 @media (max-width: 1439px) {
-  .vectorLeft,
-  .vectorNext {
+  .books {
+    display: none;
+  }
+}
+@media (max-width: 1023px) {
+  .books {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .books {
+    display: none;
+  }
+}
+
+.vector {
+  display: none;
+  /*320-767*/
+}
+@media (max-width: 1439px) {
+  .vector {
     display: block;
     width: 25px;
     height: 25px;
   }
 }
-
-.vectorLeft:hover {
-  -webkit-transform: translateX(2em);
-          transform: translateX(2em);
-}
-
-.vectorNext:hover {
-  -webkit-transform: translateX(2em);
-          transform: translateX(2em);
-}
-
 .pick {
   font-family: "Inter", sans-serif;
   font-size: 20px;
@@ -893,6 +889,22 @@ a {
   letter-spacing: 2px;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .coffe-style {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 280px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .coffe-textH2 {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
 
 .coffee-list {
   display: -webkit-box;
@@ -1005,6 +1017,13 @@ a {
 
 .cakes {
   text-align: right;
+}
+
+@media (max-width: 767px) {
+  .dessertsText {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 1439px) {
