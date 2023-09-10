@@ -1,0 +1,124 @@
+.coffe-style {
+  padding-top: 40px;
+  font-family: $inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.coffee-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 40px;
+
+  @media (max-width: 1439px) {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
+.coffee-price {
+  display: flex;
+  max-width: 500px;
+  height: auto;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 40px;
+  p {
+    font-family: $inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: right;
+    align-items: flex-end;
+  }
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+  width: auto;
+  gap: 60px;
+  @media (max-width: 767px){
+     
+  gap:30px;
+  width: 280px;
+   }
+
+  p::before {
+    display: block;
+    width: 100px;
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #bb945f;
+    top: 50%;
+    left: 240px;
+    @media (max-width: 767px){
+     
+      top: 50%;
+      left: 120px;
+      width: 50px;
+     }
+  }
+  p{
+    @media (max-width: 767px){
+     
+      font-size: 10px;
+      letter-spacing: normal;
+     }
+  }
+}
+.line {
+  display: block;
+  margin-left: 140px;
+  font-family: $forum;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  @media (max-width: 767px){
+     
+    margin-left: 20px;
+   }
+}
+.cakes {
+  text-align: right;
+}
+.coffee-price.coffeeTea {
+  @media (max-width: 1439px) {
+    margin-left: 20px;
+  }
+  @media (max-width: 767px){
+   margin: 0 auto;
+   font-size: 10px;
+  }
+}
+
+.coffee-price{
+  @media (max-width: 1439px) {
+    margin-left: 220px;
+  }
+  @media (max-width: 767px){
+    margin: 0 auto;
+   }
+
+}
+.coffe-style{
+  @media(max-width:1023px) {
+  
+  
+    width: 728px;
+}
+/*320-767*/
+@media(max-width:767px){
+width: 280px;
+font-size: 10px;
+}
+}

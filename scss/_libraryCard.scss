@@ -1,0 +1,230 @@
+.find-text{
+    font-family: $inter;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.02em;
+padding-left: 138px;
+padding-top: 10px;
+padding-bottom: 25px;
+@media (max-width: 1439px) {
+text-align: center;
+padding-left: 0;
+}
+
+}
+.card-container{
+  @media (max-width: 1439px) {
+    align-items: center;
+  }
+
+}
+
+.card-text{
+    display: flex;
+    margin-top:30px;
+    @media (max-width: 1439px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    
+}
+
+.LibraryCard-form{
+    max-width: 600px;
+    height: auto;
+    margin-right: 344px; 
+    @media (max-width: 1439px) {
+      margin-right: 0;
+      align-items: center;
+    }
+    @media(max-width:767px){
+   max-width: 300px;
+   margin-right: 0;
+   margin: 0 auto;
+      }
+  
+}
+.cardName-wrap{
+    border: 3px solid #BB945F;
+
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+        form{
+        margin: 0 auto;
+        align-items: center;
+    }
+  
+ 
+}
+#username
+{
+    width: 520px;
+    height: 66px;
+   margin-bottom: 25px;
+    border-radius: 10px;
+    @media(max-width:767px){
+      max-width: 200px;
+    
+         }
+}
+#cardNumber{
+    width: 520px;
+    height: 66px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    @media(max-width:767px){
+      max-width: 200px;
+    
+         }
+}
+.button-card{
+    width: 70px;
+    height: 50px;
+}
+.card-form{
+    background: #BB945F;
+    margin: 20px;
+    width: 560px;
+    height: auto;
+    @media(max-width:767px){
+      width: auto;
+    
+         }
+
+    .brooclyn{
+        padding-left: 20px;
+        padding-top: 20px;
+        font-family: $forum;
+font-size: 30px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0.02em;
+color: #000000;
+margin-bottom: 20px;
+
+    }
+    form{
+        padding-left: 20px;
+    }
+  }
+
+  .check-btn{
+    width: 242px;
+    height: 44px;
+    border: 1px solid #0C0C0E;
+    background: #FFFFFF;
+    font-family: $inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 1px;
+text-align: center;
+margin: 0px 179px 30px 179px;
+align-items: center;
+
+
+@media(max-width:767px){
+margin: 0px 0px 0px 25px;
+
+
+
+  }
+
+
+  }
+  .check-btn:hover{
+    cursor: pointer;
+    color: #BB945F;
+    border-color: #BB945F;
+    transition: 0.1s;
+  }
+  .will{
+    padding-top: 35px;
+    
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: right;
+
+@media(max-width:1023px) {
+text-align: center;
+  width: 600px;
+}
+/*320-767*/
+@media(max-width:767px){
+width: 250px;
+font-size: 10px;
+}
+
+  }
+  .libraryCard-text{
+    margin-top:0px;
+    padding-top: 10px;
+    text-align: right;
+
+    @media (max-width: 1439px) {
+      text-align: center;
+      padding-top: 20px;
+    }
+  
+  }
+
+    
+  .button-text{
+    width: 75px;
+    height: 30px;
+    font-family: $inter;
+font-size: 10px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 1px;
+text-align: center;
+background: #FFFFFF;
+margin-left: 15px;
+margin-top: 35px;
+
+  }
+.button-text:hover{
+  cursor: pointer;
+  color: #0C0C0E;
+  border-color: #BB945F;
+  background-color: #BB945F;
+  transition: 0.1s;
+}
+  input::placeholder{
+    font-family: $forum;
+font-size: 30px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0.02em;
+padding-left:20px;
+color: #8E8E8E;
+@media(max-width:767px){
+  font-size: 20px;
+
+     }
+
+
+  }
+  .getCard{
+    font-family: $forum;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: right;
+    @media (max-width: 1439px) {
+      text-align: center;
+    }
+   
+    
+  }
+
+  .btn-sumbit{
+    @media (max-width: 1439px) {
+      text-align: center;
+    }
+ 
+  }

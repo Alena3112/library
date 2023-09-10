@@ -1,0 +1,132 @@
+$forum: "Forum", "cursive";
+$inter: "Inter", sans-serif;
+
+body {
+  background-color: #9b9c9b;
+  font-family: $inter;
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 50px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #e7eae4;
+  
+  
+  
+  @media(max-width:1439px) {
+    
+        max-width: 1024px;
+    
+}
+@media(max-width:1023px) {
+  
+      max-width: 768px;
+  }
+  /*320-767*/
+@media(max-width:767px){
+width: 320px;
+margin: 0 auto;
+}
+}
+h1 {
+  font-family: $forum;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+  @media(max-width:767px){
+    font-size: 15px;
+    }
+
+}
+h2 {
+  font-family: $forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  color: #0c0c0e;
+  @media(max-width:767px){
+    font-size: 30px;
+    letter-spacing: 1px;
+    }
+}
+section {
+  background-color: #ffffff;
+}
+.section-wrap {
+  padding-top: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  @media (max-width: 1023px) {
+    padding-bottom: 25px;
+  }
+  
+}
+
+.section-logo {
+  margin: 0 auto;
+  //width: 106px;
+  height: 61px;
+
+  h2 {
+    text-align: center;
+    //border-bottom: 1px solid #0c0c0e;
+
+    //display: block;
+    //align-items: center;
+  }
+  .line-logo {
+    display: block;
+    width: 50px;
+    height: 1px;
+    margin-top: 20px;
+    margin-left: 670px;
+    @media(max-width:1439px) {
+    
+      margin-left: 490px;
+  
+}
+@media(max-width:1023px) {
+  margin-left: 360px;
+   
+}
+/*320-767*/
+@media(max-width:767px){
+  margin-left: 130px;
+}
+
+  }
+}
+h4 {
+  font-family: $inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+h5 {
+  font-family: $forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  //text-align: left;
+  color: #bb945f;
+  @media (max-width: 767px){
+     
+    font-size: 30px;
+   }
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}

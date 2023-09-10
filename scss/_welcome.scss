@@ -1,0 +1,49 @@
+.welcome {
+  background-image: url("../acsess/img/Welcome.jpg");
+  background-size: cover;
+}
+
+.welcome-wrap {
+  display: flex;
+  max-width: 1400px;
+  // margin: 0 auto;
+  padding-top: 220px;
+  padding-bottom: 181px;
+  @media (max-width: 1439px) {
+    padding-bottom: 160px;
+  }
+ 
+}
+.welcome-text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 220px;
+  background: #0c0c0e;
+  align-items: flex-start;
+  @media(max-width:767px){
+    width: 100%;
+    height: auto;
+  }
+}
+.text-W {
+  display: block;
+  align-items: center;
+  text-transform: uppercase;
+
+  margin: 35px 40px;
+  width: 520px;
+  height: 150px;
+  h2 {
+    color: #ffff;
+    font-family: $forum;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+    @media(max-width:767px){
+      font-size: 20px;
+    }
+  }
+}

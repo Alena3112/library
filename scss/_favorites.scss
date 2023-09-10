@@ -1,0 +1,223 @@
+.pick {
+  font-family: $inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 40px;
+  @media (max-width: 1439px) {
+    margin-left: 20px;
+  }
+}
+.radio-button {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  // padding-left: 30px;
+  // margin-right: 20px;
+  @media (max-width: 1439px) {
+    margin-left: 20px;
+  }
+  @media (max-width: 767px) {
+    flex-wrap: wrap;
+    width: auto;
+  }
+}
+.form_radio {
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+.form_radio input[type="radio"] {
+  display: block;
+  margin-bottom: -30px;
+}
+.form_radio label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 0;
+  line-height: 18px;
+  user-select: none;
+}
+.form_radio label:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  // bottom: 1px;
+  background: url("../acsess/icon/group.png") 0 0 no-repeat;
+}
+
+/* Checked */
+.form_radio input[type="radio"]:checked + label:before {
+  background: url("../acsess/icon/GroupActive.png") 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.radio-box {
+  position: absolute;
+  width: 1px;
+  overflow: hidden;
+  height: 1px;
+  clip: rect(0 0 0 0);
+}
+
+.book-item {
+  display: grid;
+  margin: 0 auto;
+  grid-gap: 25px;
+  columns: 2;
+  grid-template-columns: 590px 590px;
+  justify-content: space-between;
+  //margin-top: 40px;
+
+  @media (max-width: 1439px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.book-list {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  @media (max-width: 1439px) {
+    margin: 0 auto;
+  }
+
+  //flex-direction: column;
+}
+.book-title {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 555px;
+  border: 1px solid black;
+  margin-top: 15px;
+  @media (max-width: 767px) {
+    width: 80%;
+    height: auto;
+   margin: 0 auto;
+  }
+}
+.book {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  margin: 270px 0px 0px 390px;
+  padding-right: 0px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media (max-width: 1023px) {
+    margin: 270px 0px 0px 370px;
+  }
+  @media (max-width: 767px) {
+    width: 100px;
+    height: auto;
+    margin: 207px 0px 0px 200px;
+  }
+}
+
+.book-logo {
+  padding-left: 20px;
+
+  h3 {
+    font-family: $forum;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+
+    padding-top: 15px;
+  }
+}
+.book-text {
+  padding-top: 20px;
+  padding-left: 20px;
+
+  h4 {
+    font-family: $inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  p {
+    font-family: $inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+  }
+}
+.text-title {
+  font-family: $inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-align: left;
+  width: 355px;
+  height: auto;
+  padding-left: 20px;
+  text-transform: capitalize;
+  padding-top: 20px;
+  text-align: justify;
+  //padding-bottom: 20px;
+  @media (max-width: 767px) {
+    width: 80%;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+}
+
+.buy-btn {
+  display: block;
+  width: 75px;
+  height: 30px;
+  font-family: $inter;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  border-radius: 1px;
+  // padding: 27px 9px;
+  //margin-top: 40px;
+  //margin-bottom: 15px;
+  margin-left: 20px;
+  background: #ffffff;
+  margin-bottom: 0px;
+}
+.buy-btn:hover {
+  cursor: pointer;
+  color: #0c0c0e;
+  border-color: #bb945f;
+  background-color: #bb945f;
+  transition: 0.1s;
+}
+.own:disabled {
+  cursor: none;
+  border-color: black;
+  color: black;
+  background-color: #ffffff;
+}
+.btns {
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+.none {
+  display: none;
+}
